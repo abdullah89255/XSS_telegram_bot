@@ -3,7 +3,7 @@ from telegram.ext import Application, CommandHandler, MessageHandler, filters, C
 import requests
 from urllib.parse import urlparse, urlencode, parse_qs
 
-TOKEN = '7783516470:AAE1yXKYGEUn6kJF5WpkKVEjFbCuH7GGZzo'
+TOKEN = 'your telegram bot token'
 
 async def start(update: Update, context: CallbackContext):
     await update.message.reply_text('Hello! Send me a URL to check for reflected XSS vulnerabilities.')
