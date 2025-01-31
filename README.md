@@ -23,7 +23,7 @@ This project aims to create a Telegram bot that helps you check for reflected Cr
 
 1. **Clone the repository**:
    ```sh
-   git clone https://github.com/Hackpy3/XSS_telegram_bot
+   git clone https://github.com/abdullah89255/XSS_telegram_bot
    cd XSS_telegram_bot
    ```
 
